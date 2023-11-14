@@ -1,0 +1,52 @@
+body{
+    padding-top: 5%;
+    padding-right: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(background_Capture.PNG);  
+    background-repeat: no-repeat; 
+    background-size: 1024px 770px;
+}
+.padding-left-right{
+    padding-left: 10%;
+    padding-right: 5%;
+
+    
+}
+.bigger-text{
+    font-size: 40px;
+    font: bold;
+}
+.orange-color{
+    color: orangered;
+}
+a:link{
+    color: white;
+    font-weight: 525;
+    background-color: rgb(255, 115, 0);
+    text-decoration: none;
+    padding: 17px 20px;
+    border-radius: 4px;
+}
+a:hover{
+    background-color: rgba(255, 68, 0, 0.903);
+    color: white;
+}
+a:visited{
+    color: white;
+}
+h1{
+    font-size: 76px;
+    font-weight: 500;
+}
+.half-width{
+    padding-left: 10%;
+    width: 40%;
+}
+.flexible-container{
+    padding-left: 0%;
+    display: flex;
+}
+.introduction{
+    padding-left: 0%;
+   
+}
