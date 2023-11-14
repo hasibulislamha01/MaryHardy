@@ -1,16 +1,24 @@
 body{
-    padding-top: 5%;
-    padding-right: 5%;
+    padding-top: 0%;
+    padding-right: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+    
+.introduction{
     background-image: url(background_Capture.PNG);  
     background-repeat: no-repeat; 
-    background-size: 1024px 770px;
+    background-size: 1024px 768px;
+}
+
+.padding{
+    padding-top: 7%;
+    padding-right: 5%;
+    
 }
 .padding-left-right{
     padding-left: 10%;
     padding-right: 5%;
-
-    
 }
 .bigger-text{
     font-size: 40px;
@@ -46,7 +54,13 @@ h1{
     padding-left: 0%;
     display: flex;
 }
-.introduction{
-    padding-left: 0%;
-   
+
+.about-me{
+    padding: 50px 100px;
+    background-color: wheat;
+    text-align: center;
+}
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }
