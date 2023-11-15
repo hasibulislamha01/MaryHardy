@@ -1,8 +1,7 @@
 body{
-    padding-top: 0%;
-    padding-right: 0%;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+    padding-bottom: 30px;
 }
     
 .introduction{
@@ -51,16 +50,39 @@ h1{
     width: 40%;
 }
 .flexible-container{
-    padding-left: 0%;
+    padding-left: 0px;
     display: flex;
 }
 
-.about-me{
-    padding: 50px 100px;
-    background-color: wheat;
+.centre-align{
+    
     text-align: center;
 }
 .description{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+}
+.divsionB{
+    background-color: rgb(241, 191, 99);
+
+}
+.divisionC{
+    background-color: wheat;
+}
+.boxes{
+    border-left: 7px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.flexible-containerB{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 2.5px; */
+    padding-left: 2.5%;
+    padding-right: 5%;
+    box-shadow: 15px 15px 15px gray;
 }
